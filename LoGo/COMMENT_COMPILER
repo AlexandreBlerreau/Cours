@@ -1,0 +1,3 @@
+- Java 1.8 avec JavaFX
+- Se placer dans ProjetMode et ecrire : javac -d bin src/*/*.java (Sinon se placer dans src et ecrire javac src/projet/Lancement.java mais les .class seront mal places)
+- Se placer dans ProjetMode et ecrire : java -cp bin projet.Lancement (Sinon se placer dans src et ecrire java projet.Lancement)

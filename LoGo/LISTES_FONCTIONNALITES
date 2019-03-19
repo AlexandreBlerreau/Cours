@@ -1,0 +1,14 @@
+Sect. 1: fonctions mathematiques
+	
+	Gestion des angles avec sinus et cosinus
+	
+Sect. 2: gestion de la bibliotheque
+
+	JavaFX via fxml dans un premier puis en dur (interface actuelle)
+
+Sect. 3: fonctionnalites supplementaires
+
+	Pannel Aide
+	Export dessin
+	Interface personnalisee permettant plus de choses intuitivement (Comme la couleur sur laquelle on peut cliquer plutot que d'executer une commande COULEUR x)
+	

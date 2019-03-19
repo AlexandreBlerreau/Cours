@@ -1,0 +1,131 @@
+Livrable 2 :
+
+Ajout de :
+
+Design Pattern : Visiteurs
+				 Singleton (Sur Crayon).
+				 MVC (Pas totalement)
+				 
+SCRIPT et FIN fonctionnels sur la plupart des scripts.
+				 
+Expressions Arithmétiques : Ajout de l'AST nécessaire pour parser les expressions arithmétiques mais pas encore opérationnel.
+
+Conditions : Ajout de l'AST nécessaire pour parser les conditions mais pas encore opérationnel.
+
+Finalement nous avons pris de l'avance pour le livrable 3, mais si et tantque ne sont pas opérationnels. 
+Répéter est fonctionnel pour certains cas, mais ayant réussi à le faire fonctionner le dimanche du rendu, 
+de nombreux bugs restent à régler.
+
+De plus, nous avons du remanier le parser à deux jours du rendu. Enfin, sur notre groupe de 4, seuls deux 
+ont travaillé, Alexandre Blerreau étant absent depuis le début de l'année (Bien qu'il nous a aidé sur le 
+FX Interface) et Florian Roheart ne travaillant pas.
+
+Bonus :
+
+- Ajout du Curseur, montrant l'orientation 
+- Animation de celui-ci quand éxécution du code.
+- Pour la ligne en cours d'éxécution, ligne coloriée en vert.
+- Si erreur, ligne coloriée en rouge ou si script et fin non-fonctionnel, affichage en rouge.
+- Possibilité d'enregistrer le dessin.
+- Quand changement de couleur, le curseur change de couleur également.
+
+Tests :
+
+SCRIPT 
+AVANT 50
+--> Erreur car manque FIN
+
+AVANT 50 
+FIN
+--> Erreur car manque SCRIPT
+
+SCRIPT 
+AVANT 50 
+ALLERA 100 100
+COULEUR ROUGE
+DROITE 60
+AVANT 30
+GAUCHE 190
+AVANT 5
+FIN
+--> Fonctionnel
+
+SCRIPT
+SCRIPT
+AVANT 50
+FIN
+--> Erreur, 2x SCRIPT (Idem avec FIN)
+
+SCRIPT
+AVANT 50
+SCRIPT
+COULEUR ROUGE
+AVANT 5
+FIN
+FIN
+--> Fonctionnel
+
+SCRIPT
+AVANT 50
+FIN
+SCRIPT
+COULEUR ROUGE
+AVANT 50
+FIN
+--> Fonctionnel
+
+FIN
+AVANT 50
+SCRIPT
+--> Erreur
+
+SCRIPT
+AVANT 50
+COULEUR ROUGE
+REPETER 2
+SCRIPT
+AVANT 50
+FIN
+FIN
+--> Fonctionnel. Petit bug pour le curseur qui ne se place pas directement à la bonne place, 
+    mais se remet où il faut après un nouveau "AVANT 15" par exemple.
+    
+Tous les scripts sur moodle fonctionnent.
+
+SCRIPT
+  ALLERA 75 75
+  REPETER 5
+  SCRIPT
+    EPAISSEUR 2
+    AVANT 40
+    EPAISSEUR 1
+    AVANT 20
+    EPAISSEUR 2
+    AVANT 40
+    DROITE 216
+  FIN
+FIN 
+
+SCRIPT
+  ALLERA 75 75
+  REPETER 8
+  SCRIPT
+    AVANT 50
+    DROITE 180
+    AVANT 50
+    GAUCHE 45
+  FIN
+FIN 
+
+SCRIPT
+  ALLERA 10 10
+   REPETER 6
+   SCRIPT
+     AVANT 50
+     DROITE 180
+     AVANT 50
+     GAUCHE 90
+     AVANT 50
+     GAUCHE 90
+  FIN
+FIN 
