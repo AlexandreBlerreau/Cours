@@ -1,0 +1,770 @@
+15-Nov-2018 09:07:09.192 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:07:09.501 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:07:09.505 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:07:13.552 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:07:13.553 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:07:13.608 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:07:13.662 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:07:13.687 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:07:13.693 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:07:13.693 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:07:13.695 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:07:18.692 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:07:18.958 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:07:18.995 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:07:19.000 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:07:19.002 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:07:19.002 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 584 ms
+15-Nov-2018 09:07:19.033 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:07:19.033 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:07:19.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:07:19.416 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:07:19.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 406 ms
+15-Nov-2018 09:07:19.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:07:19.570 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:07:19.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 123 ms
+15-Nov-2018 09:07:19.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:07:19.696 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:07:19.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 129 ms
+15-Nov-2018 09:07:19.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:07:19.819 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:07:19.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 119 ms
+15-Nov-2018 09:07:19.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:07:19.931 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:07:19.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 112 ms
+15-Nov-2018 09:07:19.935 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:07:19.939 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:07:19.940 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 937 ms
+15-Nov-2018 09:08:19.976 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:08:20.094 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:08:20.095 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:08:21.611 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:08:21.611 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:08:21.666 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:08:21.718 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:08:21.740 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:08:21.743 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:08:21.744 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:08:21.744 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:08:22.755 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:08:22.906 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:08:22.930 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:08:22.934 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:08:22.936 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:08:22.936 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 396 ms
+15-Nov-2018 09:08:22.952 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:08:22.953 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:08:22.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:08:23.282 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:08:23.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 346 ms
+15-Nov-2018 09:08:23.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:08:23.430 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:08:23.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 126 ms
+15-Nov-2018 09:08:23.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:08:23.558 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:08:23.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 131 ms
+15-Nov-2018 09:08:23.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:08:23.698 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:08:23.699 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 137 ms
+15-Nov-2018 09:08:23.699 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:08:23.811 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:08:23.812 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 113 ms
+15-Nov-2018 09:08:23.814 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:08:23.818 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:08:23.818 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 882 ms
+15-Nov-2018 09:10:59.106 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:10:59.106 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:10:59.166 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:10:59.217 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:10:59.238 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:10:59.241 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:10:59.241 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:10:59.242 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:11:00.278 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:11:00.434 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:11:00.458 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:11:00.460 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:11:00.461 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:11:00.462 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 398 ms
+15-Nov-2018 09:11:00.478 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:11:00.478 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:11:00.483 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:11:00.808 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:11:00.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 348 ms
+15-Nov-2018 09:11:00.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:11:00.963 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:11:00.964 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 131 ms
+15-Nov-2018 09:11:00.964 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:11:01.084 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:11:01.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 124 ms
+15-Nov-2018 09:11:01.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:11:01.204 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:11:01.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 117 ms
+15-Nov-2018 09:11:01.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:11:01.314 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:11:01.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 110 ms
+15-Nov-2018 09:11:01.317 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:11:01.321 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:11:01.321 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 859 ms
+15-Nov-2018 09:13:20.869 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:13:20.870 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:13:20.925 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:13:20.977 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:13:21.000 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:13:21.084 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:13:21.085 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:13:21.086 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:13:22.031 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:13:22.184 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:13:22.208 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:13:22.212 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:13:22.213 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:13:22.214 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 403 ms
+15-Nov-2018 09:13:22.231 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:13:22.231 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:13:22.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:13:22.561 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:13:22.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 349 ms
+15-Nov-2018 09:13:22.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:13:22.732 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:13:22.734 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 148 ms
+15-Nov-2018 09:13:22.735 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:13:22.874 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:13:22.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 143 ms
+15-Nov-2018 09:13:22.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:13:23.001 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:13:23.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 123 ms
+15-Nov-2018 09:13:23.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:13:23.111 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:13:23.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 110 ms
+15-Nov-2018 09:13:23.114 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:13:23.117 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:13:23.118 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 903 ms
+15-Nov-2018 09:15:02.198 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:15:02.199 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:15:02.254 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:15:02.305 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:15:02.328 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:15:02.330 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:15:02.331 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:15:02.331 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:15:03.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:15:03.421 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:15:03.444 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:15:03.448 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:15:03.450 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:15:03.450 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 396 ms
+15-Nov-2018 09:15:03.469 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:15:03.470 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:15:03.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:15:03.814 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:15:03.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 361 ms
+15-Nov-2018 09:15:03.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:15:03.969 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:15:03.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 132 ms
+15-Nov-2018 09:15:03.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:15:04.104 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:15:04.108 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 137 ms
+15-Nov-2018 09:15:04.108 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:15:04.234 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:15:04.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 127 ms
+15-Nov-2018 09:15:04.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:15:04.353 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:15:04.355 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 119 ms
+15-Nov-2018 09:15:04.357 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:15:04.360 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:15:04.360 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 909 ms
+15-Nov-2018 09:16:24.412 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:16:24.534 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:16:24.535 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:16:26.930 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:16:26.930 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:16:26.988 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:16:27.039 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:16:27.059 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:16:27.061 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:16:27.062 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:16:27.062 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:16:28.382 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:16:28.532 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:16:28.554 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:16:28.558 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:16:28.560 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:16:28.560 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 425 ms
+15-Nov-2018 09:16:28.575 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:16:28.575 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:16:28.581 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:16:28.909 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:16:28.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 350 ms
+15-Nov-2018 09:16:28.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:16:29.053 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:16:29.055 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 123 ms
+15-Nov-2018 09:16:29.055 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:16:29.174 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:16:29.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 123 ms
+15-Nov-2018 09:16:29.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:16:29.289 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:16:29.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 113 ms
+15-Nov-2018 09:16:29.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:16:29.398 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:16:29.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 108 ms
+15-Nov-2018 09:16:29.401 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:16:29.405 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:16:29.405 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 844 ms
+15-Nov-2018 09:23:38.864 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:23:38.864 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:23:38.924 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:23:38.979 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:23:39.001 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:23:39.004 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:23:39.004 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:23:39.005 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:23:40.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:23:40.527 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:23:40.550 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:23:40.554 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:23:40.556 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:23:40.556 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 401 ms
+15-Nov-2018 09:23:40.572 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:23:40.572 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:23:40.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:23:40.902 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:23:40.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 348 ms
+15-Nov-2018 09:23:40.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:23:41.065 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:23:41.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 141 ms
+15-Nov-2018 09:23:41.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:23:41.207 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:23:41.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 144 ms
+15-Nov-2018 09:23:41.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:23:41.338 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:23:41.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 128 ms
+15-Nov-2018 09:23:41.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:23:41.449 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:23:41.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 111 ms
+15-Nov-2018 09:23:41.452 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:23:41.456 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:23:41.457 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 900 ms
+15-Nov-2018 09:24:14.880 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:24:14.881 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:24:14.935 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:24:14.988 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:24:15.011 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:24:15.014 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:24:15.014 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:24:15.015 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:24:16.042 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:24:16.195 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:24:16.218 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:24:16.222 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:24:16.223 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:24:16.224 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 399 ms
+15-Nov-2018 09:24:16.240 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:24:16.240 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:24:16.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:24:16.569 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:24:16.593 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 346 ms
+15-Nov-2018 09:24:16.593 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:24:16.730 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:24:16.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 139 ms
+15-Nov-2018 09:24:16.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:24:16.868 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:24:16.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 141 ms
+15-Nov-2018 09:24:16.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:24:16.996 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:24:16.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 124 ms
+15-Nov-2018 09:24:16.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:24:17.105 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:24:17.106 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 109 ms
+15-Nov-2018 09:24:17.108 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:24:17.112 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:24:17.113 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 888 ms
+15-Nov-2018 09:29:34.670 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:29:34.670 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:29:34.725 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:29:34.778 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:29:34.801 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:29:34.805 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:29:34.805 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:29:34.806 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:29:36.620 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:29:36.770 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:29:36.794 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:29:36.798 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:29:36.799 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:29:36.800 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 395 ms
+15-Nov-2018 09:29:36.816 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:29:36.816 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:29:36.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:29:37.149 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:29:37.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 350 ms
+15-Nov-2018 09:29:37.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:29:37.313 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:29:37.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 142 ms
+15-Nov-2018 09:29:37.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:29:37.454 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:29:37.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 144 ms
+15-Nov-2018 09:29:37.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:29:37.584 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:29:37.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 126 ms
+15-Nov-2018 09:29:37.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:29:37.695 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:29:37.696 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 111 ms
+15-Nov-2018 09:29:37.699 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:29:37.702 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:29:37.703 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 902 ms
+15-Nov-2018 09:43:58.214 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:43:58.324 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:43:58.325 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:48:17.633 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:48:17.633 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:48:17.687 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:48:17.738 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:48:17.762 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:48:17.766 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:48:17.767 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:48:17.767 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:48:19.146 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:48:19.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:48:19.325 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:48:19.330 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:48:19.332 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:48:19.332 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 405 ms
+15-Nov-2018 09:48:19.349 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:48:19.349 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:48:19.355 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:48:19.675 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:48:19.700 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 344 ms
+15-Nov-2018 09:48:19.700 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:48:19.821 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:48:19.823 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 123 ms
+15-Nov-2018 09:48:19.823 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:48:19.952 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:48:19.957 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 134 ms
+15-Nov-2018 09:48:19.957 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:48:20.081 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:48:20.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 125 ms
+15-Nov-2018 09:48:20.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:48:20.194 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:48:20.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 113 ms
+15-Nov-2018 09:48:20.197 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:48:20.200 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:48:20.201 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 868 ms
+15-Nov-2018 09:49:18.266 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:49:18.267 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:49:18.323 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:49:18.380 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:49:18.398 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:49:18.467 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:49:18.568 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:49:18.569 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:49:19.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:49:19.647 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:49:19.670 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:49:19.675 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:49:19.676 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:49:19.676 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 395 ms
+15-Nov-2018 09:49:19.693 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:49:19.693 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:49:19.699 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:49:20.029 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:49:20.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 352 ms
+15-Nov-2018 09:49:20.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:49:20.177 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:49:20.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 125 ms
+15-Nov-2018 09:49:20.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:49:20.298 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:49:20.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 124 ms
+15-Nov-2018 09:49:20.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:49:20.427 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:49:20.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 125 ms
+15-Nov-2018 09:49:20.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:49:20.541 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:49:20.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 115 ms
+15-Nov-2018 09:49:20.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:49:20.548 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:49:20.548 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 871 ms
+15-Nov-2018 09:50:30.582 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:50:30.695 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:50:30.696 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:50:33.395 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:50:33.395 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:50:33.454 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:50:33.506 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:50:33.523 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:50:33.525 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:50:33.525 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:50:33.526 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:50:34.923 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:50:35.072 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:50:35.095 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:50:35.099 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:50:35.100 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:50:35.101 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 390 ms
+15-Nov-2018 09:50:35.116 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:50:35.117 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:50:35.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:50:35.448 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:50:35.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 350 ms
+15-Nov-2018 09:50:35.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:50:35.602 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:50:35.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 130 ms
+15-Nov-2018 09:50:35.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:50:35.733 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:50:35.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 133 ms
+15-Nov-2018 09:50:35.738 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:50:35.860 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:50:35.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 123 ms
+15-Nov-2018 09:50:35.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:50:35.979 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:50:35.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 119 ms
+15-Nov-2018 09:50:35.983 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:50:35.987 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:50:35.987 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 886 ms
+15-Nov-2018 09:52:36.061 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:52:36.176 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:52:36.177 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:52:39.847 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:52:39.847 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:52:39.901 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:52:39.953 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:52:39.976 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:52:39.979 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:52:39.979 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:52:39.979 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:52:40.971 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:52:41.121 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:52:41.145 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:52:41.148 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:52:41.150 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:52:41.150 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 396 ms
+15-Nov-2018 09:52:41.170 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:52:41.171 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:52:41.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:52:41.507 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:52:41.530 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 353 ms
+15-Nov-2018 09:52:41.530 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:52:41.665 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:52:41.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 137 ms
+15-Nov-2018 09:52:41.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:52:41.795 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:52:41.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 132 ms
+15-Nov-2018 09:52:41.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:52:41.911 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:52:41.912 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 113 ms
+15-Nov-2018 09:52:41.912 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:52:42.023 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:52:42.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 112 ms
+15-Nov-2018 09:52:42.025 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:52:42.030 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:52:42.030 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 879 ms
+15-Nov-2018 09:56:42.191 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:56:42.325 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:56:42.327 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:56:51.747 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:56:51.747 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:56:51.801 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:56:51.854 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:56:51.871 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:56:51.874 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:56:51.874 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:56:51.875 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:56:53.127 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:56:53.280 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:56:53.303 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:56:53.307 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:56:53.309 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:56:53.310 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 401 ms
+15-Nov-2018 09:56:53.325 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:56:53.325 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:56:53.331 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:56:53.650 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:56:53.674 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 341 ms
+15-Nov-2018 09:56:53.674 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:56:53.795 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:56:53.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 123 ms
+15-Nov-2018 09:56:53.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:56:53.935 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:56:53.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 147 ms
+15-Nov-2018 09:56:53.946 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:56:54.084 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:56:54.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 141 ms
+15-Nov-2018 09:56:54.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:56:54.201 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:56:54.203 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 118 ms
+15-Nov-2018 09:56:54.204 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:56:54.208 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:56:54.208 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 898 ms
+15-Nov-2018 09:58:54.277 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 09:58:54.389 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:58:54.390 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 09:58:57.142 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 09:58:57.143 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:58:57.197 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:58:57.249 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 09:58:57.272 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:58:57.275 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:58:57.276 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:58:57.276 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:58:58.688 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 09:58:58.842 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:58:58.865 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:58:58.869 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:58:58.870 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 09:58:58.870 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 401 ms
+15-Nov-2018 09:58:58.885 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 09:58:58.885 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 09:58:58.891 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 09:58:59.220 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:58:59.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 352 ms
+15-Nov-2018 09:58:59.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 09:58:59.385 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:58:59.388 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 144 ms
+15-Nov-2018 09:58:59.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 09:58:59.529 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:58:59.533 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 144 ms
+15-Nov-2018 09:58:59.533 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 09:58:59.662 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:58:59.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 130 ms
+15-Nov-2018 09:58:59.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 09:58:59.775 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 09:58:59.776 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 112 ms
+15-Nov-2018 09:58:59.779 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 09:58:59.782 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 09:58:59.783 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 912 ms
+15-Nov-2018 10:00:09.826 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 10:00:09.939 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:09.941 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 10:00:11.042 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 10:00:11.043 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:11.098 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:11.149 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 10:00:11.171 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:11.173 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:11.174 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:11.174 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:12.984 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 10:00:13.135 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:13.158 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 10:00:13.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:13.164 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 10:00:13.165 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 395 ms
+15-Nov-2018 10:00:13.185 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 10:00:13.185 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 10:00:13.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 10:00:13.526 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:13.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 360 ms
+15-Nov-2018 10:00:13.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 10:00:13.679 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:13.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 129 ms
+15-Nov-2018 10:00:13.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 10:00:13.804 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:13.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 127 ms
+15-Nov-2018 10:00:13.809 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 10:00:13.950 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:13.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 142 ms
+15-Nov-2018 10:00:13.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 10:00:14.085 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:14.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 134 ms
+15-Nov-2018 10:00:14.088 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:14.092 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:14.093 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 927 ms
+15-Nov-2018 10:00:34.099 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 10:00:34.231 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:34.232 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+15-Nov-2018 10:00:35.986 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 10:00:36.146 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:36.164 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+ java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+15-Nov-2018 10:00:36.165 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+15-Nov-2018 10:00:36.165 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:36.166 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+15-Nov-2018 10:00:36.167 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+15-Nov-2018 10:00:36.167 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 409 ms
+15-Nov-2018 10:00:36.184 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 10:00:36.184 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 10:00:36.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 10:00:36.509 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:36.532 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 341 ms
+15-Nov-2018 10:00:36.533 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 10:00:36.653 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:36.655 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 122 ms
+15-Nov-2018 10:00:36.655 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 10:00:36.777 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:36.780 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 125 ms
+15-Nov-2018 10:00:36.780 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 10:00:36.894 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:36.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 115 ms
+15-Nov-2018 10:00:36.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 10:00:36.998 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:36.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 104 ms
+15-Nov-2018 10:00:37.001 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 834 ms
+15-Nov-2018 10:00:37.006 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:420)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:713)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:659)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+15-Nov-2018 10:00:37.007 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:37.007 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:37.007 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 10:00:37.021 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:37.021 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:37.021 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:37.021 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:38.274 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2018 10:00:38.274 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:38.328 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:38.383 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+15-Nov-2018 10:00:38.401 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:38.405 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:38.406 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:38.406 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:39.542 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexandreblerreau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+15-Nov-2018 10:00:39.696 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:39.719 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 10:00:39.723 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:39.725 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2018 10:00:39.725 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 399 ms
+15-Nov-2018 10:00:39.739 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+15-Nov-2018 10:00:39.740 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+15-Nov-2018 10:00:39.745 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 de l'application web
+15-Nov-2018 10:00:40.072 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:40.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/tp4 has finished in 351 ms
+15-Nov-2018 10:00:40.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide de l'application web
+15-Nov-2018 10:00:40.225 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:40.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/vide has finished in 130 ms
+15-Nov-2018 10:00:40.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager de l'application web
+15-Nov-2018 10:00:40.366 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:40.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/manager has finished in 143 ms
+15-Nov-2018 10:00:40.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT de l'application web
+15-Nov-2018 10:00:40.491 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:40.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/ROOT has finished in 121 ms
+15-Nov-2018 10:00:40.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager de l'application web
+15-Nov-2018 10:00:40.605 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 10:00:40.607 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexandreblerreau/Desktop/Cours/Programmationweb/Movie_Remainde/tomcat8/webapps/host-manager has finished in 115 ms
+15-Nov-2018 10:00:40.608 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2018 10:00:40.612 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2018 10:00:40.613 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 888 ms
+15-Nov-2018 19:11:15.166 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/vide] a démarré
+15-Nov-2018 19:11:15.302 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2018 19:11:15.304 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
