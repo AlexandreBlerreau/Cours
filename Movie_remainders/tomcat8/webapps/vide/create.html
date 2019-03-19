@@ -1,0 +1,48 @@
+<!-- Test.html -->
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+   <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" type="text/css" href="connectionstyle.css"/>
+   <TITLE>Movie remainders - Inscription</TITLE>
+</HEAD>
+<BODY>
+
+<center>
+<a href="http://localhost:8080/vide/index.html"><img src="logo.png" alt="logo"  height="125" width="260"></a>
+<h2>Inscription</h2>
+</center>
+
+<br>
+
+<form method="post" action="http://localhost:8080/vide/create">
+
+<table id="create">
+
+	<tr>
+		<td><a>Votre prenom:</a><br /><input type="textbox" name="prenom" required></td>
+	</tr>
+	<tr>
+		<td><a>Votre nom:</a><br /><input type="textbox" name="nom" required></td>
+	</tr>
+	<tr>
+		<td><a>Votre age:</a><br /><input type="number" name="age" required></td>
+	</tr>
+	<tr>
+		<td><a>Votre mot de passe:</a><br /><input type="password" name="mdp" required></td>
+	</tr>
+	<tr>
+		<td><a>Votre photo</a><br /><input type="text" name="photo" value="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pictogram_voting_question.svg/220px-Pictogram_voting_question.svg.png" required></td>
+	</tr>
+	<tr>
+		<td><a>Votre mail:</a><br /><input type="email" name="mail" required></td>
+	</tr>
+	<tr>
+		<td><input type="submit" style="height:30px; background-color: #87CEEB; border: none;font-size: 15px" value="S'inscrire"></td>
+	</tr>
+	
+</table>	 
+
+
+</BODY>
+</HTML>

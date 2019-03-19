@@ -1,0 +1,71 @@
+
+
+<ul class="list list-vertical list-zoom" style="width: 255px; height: 500px; overflow: auto">
+  <li><a href="#"><img src="https://m.media-amazon.com/images/M/MV5BZDNhNzhkNDctOTlmOS00NWNmLWEyODQtNWMxM2UzYmJiNGMyXkEyXkFqcGdeQXVyNTMxMjgxMzA@._V1_.jpg" style="width: 200px; height: 150px align:center;"></a></li>
+  <li><a href=""><img src="http://fr.web.img6.acsta.net/pictures/18/10/31/17/34/2348073.jpg" style="width: 200px; height: 150px align:center;"></a></li>
+  <li><a href=""><img src="http://fr.web.img3.acsta.net/pictures/15/05/06/16/13/020977.jpg" style="width: 200px; height: 150px align:center;"></a></li>
+  <li><a href="">Item 4</a></li>
+  <li><a href="">Item 5</a></li>
+  <li><a href="">Item 1</a></li>
+  <li><a href="">Item 2</a></li>
+  <li><a href="">Item 3</a></li>
+  <li><a href="">Item 4</a></li>
+  <li><a href="">Item 5</a></li>
+  <li><a href="">Item 1</a></li>
+  <li><a href="">Item 2</a></li>
+  <li><a href="">Item 3</a></li>
+  <li><a href="">Item 4</a></li>
+  <li><a href="">Item 5</a></li>
+  <li><a href="">Item 1</a></li>
+  <li><a href="">Item 2</a></li>
+  <li><a href="">Item 3</a></li>
+  <li><a href="">Item 4</a></li>
+  <li><a href="">Item 5</a></li>
+</ul>
+
+
+
+
+
+
+
+
+ul{
+ 
+  background-color:#F5F5F5;
+}
+
+
+.list{
+  list-style: none;
+  a{
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 15px 5%;
+    transform-origin: 50% 50%;
+  }
+}
+
+.list-vertical{
+  width: 19%;
+  margin: 15px 3%;
+}
+
+.list-zoom{
+  a{
+    color: #2b2529;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover{
+      
+      transform: scale(1.2) translate(15px, 0);
+      
+    }
+    &:active{
+      transform: scale(1.1) translate(9px, 0);
+      box-shadow: inset 0 0 3px 0 rgba(33,33,33,0.1);
+    }
+  }
+}
+
+

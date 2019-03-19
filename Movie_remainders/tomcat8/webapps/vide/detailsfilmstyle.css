@@ -1,0 +1,65 @@
+
+
+#container {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%),
+    
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+#results {
+      background: rgba(0,0,0,.10);
+}
+
+#movie {
+  text-align: left;
+  margin-top: 1em;
+}
+
+h1 {
+  color: white;
+}
+
+h2, h3 {
+  color: #00ce71;
+  font-weight: 200;
+}
+
+p {
+  color: white;
+}
+.movie-details-container{
+  color:white;
+}
+
+.row {
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.column {
+  float: left;
+}
+.column-md {
+  width: 50%;
+}
+.column-lg {
+  width: 100%;
+}
+
+#poster {
+  padding-right: 10px;
+  max-width: 60%;
+  max-height: 60%;
+    
+}
+
