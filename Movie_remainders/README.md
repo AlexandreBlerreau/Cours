@@ -1,7 +1,7 @@
 # Programmation web back-end
 
-* servlet java (l'API est injectée dans le porjet)
-* sqlite (l'API est injectée dans le porjet)
+* servlet java (l'API est injectée dans le projet)
+* sqlite (l'API est injectée dans le projet)
 
 
 # Utilisation de tomcat8
